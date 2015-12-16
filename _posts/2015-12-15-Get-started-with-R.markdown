@@ -4,10 +4,10 @@ title:  "Get started with R"
 date:   2015-12-15 14:24:44 -0800
 categories: R 
 ---
-R is a free software environment for statistical computing and graphing. It's very useful if you work with data that are too large to load into Excel or other graphical interface tools and that you want to do things faster and neater than clicking and dragging things around. 
+R is a free software environment for statistical computing and graphing. People have contributed to it so much that if you need to run a certain analysis, there's most likely a few package for it already. It's also very useful if you work with data that are too large to load into Excel or other graphical interface tools and that you want to do things faster and neater than clicking and dragging things around. 
+<!--more-->
 
 There is a huge hype about data science these days. If you are just getting your feet wet with data science, learning how to program with R is a good start (glad you're reading this!) It's also an easy language to learn.
-<!--more-->
 
 However, googling "getting started with R" will get you numerous links to A LOT of things, and that could be overwhelming... That's the last thing you want someone to feel when you want to help them to learn something! 
 
@@ -99,5 +99,5 @@ Choose your graph and labels wisely. Avoid pie chart because areas aren't as per
 - For some additional resources, here is the course page for the two courses on R, offered at University of British Columbia 
     - [STAT545](http://stat545-ubc.github.io)
 
-
-Last but not least, thanks for reading and happy learning ~ :) 
+## Last but not least
+While R is used a lot in the academia, I'm not sure how much it's used in the industry. R is a easy go-to tool for learning statistics and doing data analysis, but there are also many other tools out there, given how diverse the field of data science is... For example, Python libraries for graphing and analysis, D3.js for interactive data visualization on the web are worth looking into when you get a chance. To wet your appetite, check out [Jupyter](http://nbviewer.ipython.org/). It has numerous Python notebooks on data analysis and advanced tutorials on statistics. Too much to learn and too little time? Haha, that's part of the joy of learning ~ :) 
