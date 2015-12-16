@@ -5,7 +5,8 @@ date:   2015-12-14 14:24:44 -0800
 categories: jekyll update
 ---
 
-Since this is the first blog post it's almost necessary to describe how I set this up using [Jekyll][jekyll-docs]. Go to the link to learn about Jekyll, a blog-conscious tool for building a website. 
+Since this is the first blog post it's almost necessary to describe how I set this up using [Jekyll][jekyll-docs]. Go to the link to learn about Jekyll, a blog-conscious tool for building a website. This post will also cover some information on getting your own email and setting up your own domain. 
+<!--more-->
 
 ## The Basics 
 
