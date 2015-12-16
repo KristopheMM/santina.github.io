@@ -96,7 +96,7 @@ Choose your graph and labels wisely. Avoid pie chart because areas aren't as per
 - You can use R to interact with web API to [get data from the web](http://stat545-ubc.github.io/webdata03_activity.html). 
 
 - For some additional resources, here is the course page for the two courses on R, offered at University of British Columbia 
-    - [STAT545](http://stat545-ubc.github.io/webdata03_activity.html)
+    - [STAT545](http://stat545-ubc.github.io)
 
 
 Last but not least, thanks for reading and happy learning ~ :) 
