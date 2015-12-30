@@ -19,7 +19,7 @@ First [install R through CRAN](https://cran.rstudio.com/) and then [install R St
 
 ## Go through Swirl
 
-Probably the best and most efficient way to learn R: actually writing R codes in the console and see things happening. Go to the [Swirl](http://swirlstats.com/students.html) page and follow the steps. There are [many interactive courses](https://github.com/swirldev/swirl_courses) with the swirl R package, from beginner things like setting a variable to a value to advanced topics like statistical models. Follow the instruction on that Github README page to download those courses. Sit down and do them. And then ... that's really it. You're done learning the essentials with R and ready to analyze whatever real dataset you're working with. Congrats!
+Probably the best and most efficient way to learn R: actually writing R codes in the console and see things happening. Go to the [Swirl](http://swirlstats.com/students.html) page and follow the steps. There are [many interactive courses](https://github.com/swirldev/swirl_courses) with the swirl R package, from beginner things like setting a variable to a value to advanced topics like statistical models. Follow the instruction on that [Github README page](https://github.com/swirldev/swirl_courses) to download those courses. Sit down and do them. And then ... that's really it. You're done learning the essentials with R and ready to analyze whatever real dataset you're working with. Congrats!
 
  
 ## Take a Coursera course (optional)
@@ -44,14 +44,14 @@ Most of these functions are in base R, but some very useful ones are in packages
     - the assignment symbol `->`  :  `alt` + `-`
     - The pipe symbol `%>%`: `command` + `shift` + `M` 
     - The include symbol `%in%` : (not sure if there's one or I forgot)
-- Always set up your work directory first: 
+- Always make sure you're in the right directory 
     - `getwd()`, `setwd()`
 
 ### 2. Read in a table 
 - `read.table()` 
 - `read.csv()`
 
-If R complains about not having the right number of objects, it's either that you have null values in some rows/cols or that you have a string with quotes or weird symbols in them. use `quote=""` to resolve the former case. Use `?function-name()` to learn more about how to use function attributes. 
+If R complains about not having the right number of objects, it's either that you have null values in some rows/cols or that you have a string with quotes or weird symbols in them. use `quote=""` to resolve the former case. Use `?function-name()` to learn more about how to use those function attributes. 
 
 ### 3. Data inspection and fixing
 - `nrow()`, `ncol()`, `head()`, `tail()`, `dim()`, `length()`
@@ -87,6 +87,8 @@ Also, go learn about _ggplot2_ and _lattice_, you can check out [my R markdown r
 Choose your graph and labels wisely. Avoid pie chart because areas aren't as perceivable as lengths. Use [a good color palatte](http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/) in your graph. Data visualization is a whole field of study itself. Go learn more on the internet. 
 
 ### 8. Others 
+- Here are some **[useful cheat sheets by RStudio](https://www.rstudio.com/resources/cheatsheets/)** on various topics such as making an R markdown, making an R package, graphing in R, etc. Very helpful for those who keep needing to look up how to do dplyr or ggplot2. 
+
 - You can [write your own functions](http://www.statmethods.net/management/userfunctions.html) or even create your packages in R. 
     - This is a [simple NHL R package](https://github.com/santina/gameplay) that I wrote. It pulls NHL data from the web and summarizes them. 
     
@@ -96,7 +98,7 @@ Choose your graph and labels wisely. Avoid pie chart because areas aren't as per
 
 - You can use R to interact with web API to [get data from the web](http://stat545-ubc.github.io/webdata03_activity.html). 
 
-- For some additional resources, here is the course page for the two courses on R, offered at University of British Columbia 
+- For some additional resources and more narrative descriptions and examples, here is the course page for the two courses on R, offered at University of British Columbia 
     - [STAT545](http://stat545-ubc.github.io)
 
 ## Last but not least
