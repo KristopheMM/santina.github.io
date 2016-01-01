@@ -8,7 +8,7 @@
 # Site settings
 title: Santinasaur's stickies
 email: hello AT santina.me
-description: "An informative, time-saving, and maybe thought-provoking blog"
+description: "An informative and thought-provoking blog"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://santina.me" # the base hostname & protocol for your site
 twitter_username: santinasaur
