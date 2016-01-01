@@ -107,10 +107,9 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
+i.contact {
+    font-size:20px;
+    padding-right:8px;
 }
 
 .footer-col-wrapper {
