@@ -11,7 +11,7 @@ My social media's reaction to Trump's victory on landing the white house job rem
 
 <!--more-->
 
-<img src="../images/homosexuality-chart.jpg" alt="homosexuality-chart" class="blog-image">
+<img src="/images/homosexuality-chart.jpg" alt="homosexuality-chart" class="blog-image">
 
 I remember when I saw this chart, especially the lower left corner, I thought to myself: "How is this supposed to convince someone that being gay is fine? If I'm a homophobia, I'd probably think that whoever made this chart is some self-made arrogant elitist."
 
