@@ -2,7 +2,9 @@
 layout: post
 title:  "Discuss not Diss"
 date:   2016-11-13 11:32:44 -0800
-categories: thoughts
+categories: Thoughts
+tags: [Social issues, Politics]
+permalink: Discuss-not-Dissing.html
 ---
 
 (Wow it's been months since I abandoned by blog)
