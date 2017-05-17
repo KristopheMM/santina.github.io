@@ -5,15 +5,15 @@ date:   2016-11-13 11:32:44 -0800
 categories: Thoughts
 tags: [Social issues, Politics]
 permalink: /:title/
+header-img: "/backgrounds/horsetail_hike.jpg"
 ---
 
 (Wow it's been months since I abandoned by blog)
 
-My social media's reaction to Trump's victory on landing the white house job reminded me of this image that a Facebook friend of mine posted a few years ago.
-
-<img src="/images/homosexuality-chart.jpg" alt="homosexuality-chart" class="blog-image">
+My social media's reaction to Trump's victory on landing the white house job reminded me of this terrible flowchart that a Facebook friend of mine posted a few years ago.
 
 <!--more-->
+<img src="/images/homosexuality-chart.jpg" alt="homosexuality-chart" class="blog-image">
 
 I remember when I saw this chart, especially the lower left corner, I thought to myself: "How is this supposed to convince someone that being gay is fine? If I'm a homophobia, I'd probably think that whoever made this chart is some self-made arrogant elitist."
 
