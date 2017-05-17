@@ -1,15 +1,46 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+<header class="site-header">
+  <div class="wrapper">
+    {% include nav.html %}
   </div>
+</header>
+
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="jumbotron jumbotron-fluid intro-header" style="background-image: url({% if page.header-img-http %}{{ page.header-img-http }}{% elsif page.header-img %}{{ site.baseurl }}{{ page.header-img }}{% else %}{{ site.baseurl }}{{ site.header-img }}{% endif %});">
+    <header class="post-header">
+
+      <div class="wrapper">
+        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        <h2 class="post-meta-title"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h2>
+      </div>
+  </header>
+  </div>
+  <div class="post-content">
+    <div class="wrapper">
+
+      {{ content }}
+      {% include comments.html %}
+    </div>
+</div>
 
 </article>
+
+<!-- <script>
+var velocity = 0.5;
+
+function update(){
+var pos = $(window).scrollTop();
+$('.intro-header').each(function() {
+    var $element = $(this);
+    // subtract some from the height b/c of the padding
+    var height = $element.height()-18;
+    $(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) +  'px');
+   });
+   };
+
+ $(window).bind('scroll', update);
+</script> -->

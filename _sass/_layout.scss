@@ -188,6 +188,12 @@ i.contact {
     color: $grey-color;
 }
 
+.post-meta-title {
+    color: $grey-color-light;
+    -webkit-text-fill-color: $grey-color-light;
+    text-shadow: 1px 3px black;
+}
+
 .post-link {
     display: block;
     font-size: 24px;
@@ -214,13 +220,30 @@ i.contact {
 }
 
 .post-title {
-    font-size: 42px;
+    margin-top: 30px;
     letter-spacing: -1px;
     line-height: 1;
+
+   -webkit-text-fill-color: $grey-color-light;
+   text-shadow: 1px 3px black;
 
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.jumbotron{
+  height: 350px;
+}
+
+
+.intro-header {
+  background-color: #808080;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed; /* allow scrolling movement */
 }
 
 .post-content {

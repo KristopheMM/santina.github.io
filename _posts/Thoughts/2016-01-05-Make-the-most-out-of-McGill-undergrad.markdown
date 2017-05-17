@@ -4,7 +4,8 @@ title:  "Make the most out of your McGill life"
 date:   2016-1-5 14:32:44 -0800
 categories: Thoughts
 tags: [McGill, Life]
-permalink: /:title/ 
+permalink: /:title/
+header-img: "/backgrounds/montreal_fireworks.jpg"
 ---
 
 

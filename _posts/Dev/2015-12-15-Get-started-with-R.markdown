@@ -4,7 +4,8 @@ title:  "Get started with R"
 date:   2015-12-15 14:24:44 -0800
 categories: Dev
 tags: [R, Data science]
-permalink: /:title/ 
+permalink: /:title/
+header-img: "/backgrounds/hole_in_wall_river.jpg"
 ---
 R is a free software environment for statistical computing and graphing. People have contributed to it so much that if you need to run a certain analysis, there's most likely a few package for it already. It's also very useful if you work with data that are too large to load into Excel or other graphical interface tools and that you want to do things faster and neater than clicking and dragging things around.
 <!--more-->
