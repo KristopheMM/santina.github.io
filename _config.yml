@@ -13,8 +13,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://santina.me" # the base hostname & protocol for your site
 twitter_username: santinasaur
 github_username:  santina
+repository: santina/santina.github.io
 
-# Post settings 
+# Post settings
 excerpt_separator: <!--more-->
 
 # Build settings
